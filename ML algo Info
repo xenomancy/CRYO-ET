@@ -1,13 +1,22 @@
-THIS IS BASICALLY A WRITE UP FOR THE MACHINE-LEARNING MODELS WE ARE GOING TO USE IN THIS PAPER:-
-For predicting protein labels on cryo-ET or cryo-EM images, consider the following machine learning algorithms and techniques:
+THIS IS A WRITE-UP FOR THE MACHINE-LEARNING MODELS WE ARE GOING TO USE IN THIS PAPER:-
+For predicting protein labels on cryo-ET or cryo-EM images, consider the following machine-learning algorithms and techniques:
 
-1. Convolutional Neural Networks (CNNs)
-2. 3D CNNs
-3. Transfer Learning
-4. Graph Neural Networks (GNNs)
-5. Transformers for Vision
-6. Autoencoders
-7. Multi-Instance Learning (MIL)
-8. Reinforcement Learning
-9. Ensemble Learning
-10. Generative Models
+1. Convolutional Neural Networks (CNNs): CNNs are well-suited for image data as they excel in capturing spatial hierarchies. Architectures like ResNet, EfficientNet, or U-Net for segmentation and classification tasks.
+
+2. 3D CNNs: Cryo-ET data often involve 3D volumetric data instead of 2D images. Models like VNet or 3D-ResNet handle volumetric image data effectively.
+
+3. Transfer Learning: pre-trained models can provide a good starting point if labeled cryo-EM or cryo-ET datasets are limited. Fine-tuning pre-trained networks on your specific dataset.
+
+4. Graph Neural Networks (GNNs): Cryo-EM/ET data can sometimes be represented as graphs (e.g., protein structures). Graph Convolutional Networks (GCNs) for tasks where proteins can be represented as nodes and interactions as edges.
+
+5. Transformers for Vision: Cryo-EM/ET data can sometimes be represented as graphs (e.g., protein structures). ViT or hybrid CNN-ViT models
+
+6. Autoencoders:  Useful for unsupervised learning and feature extraction. Variants like Convolutional Autoencoders for dimensionality reduction and anomaly detection.
+
+7. Multi-Instance Learning (MIL): Useful for datasets where labels are assigned to collections of images rather than individual images. Explore MIL frameworks tailored to biomedical imaging.
+
+8. Reinforcement Learning: In cases where iterative refinement of the predicted structure is needed. Application of RL to refine noisy predictions.
+
+9. Ensemble Learning: Combining predictions from multiple models often boosts performance. Techniques like Random Forests or Gradient Boosting (e.g., XGBoost) for simpler tasks or as components of larger frameworks.
+
+10. Generative Models: For augmenting datasets and predicting missing regions in cryo-EM/ET data. GANs (Generative Adversarial Networks) or diffusion models for data augmentation.
