@@ -1,0 +1,13 @@
+THIS IS BASICALLY A WRITE UP FOR THE MACHINE-LEARNING MODELS WE ARE GOING TO USE IN THIS PAPER:-
+For predicting protein labels on cryo-ET or cryo-EM images, consider the following machine learning algorithms and techniques:
+
+1. Convolutional Neural Networks (CNNs)
+2. 3D CNNs
+3. Transfer Learning
+4. Graph Neural Networks (GNNs)
+5. Transformers for Vision
+6. Autoencoders
+7. Multi-Instance Learning (MIL)
+8. Reinforcement Learning
+9. Ensemble Learning
+10. Generative Models
